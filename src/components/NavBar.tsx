@@ -33,7 +33,7 @@ const NavBar = () => {
                         to="/resources">resources</Link>
                 </Nav>
                 <div className="d-flex justify-content-center align-items-center mt-2">
-                    <Link className="join-button d-flex align-items-center" to="/joinus">join us</Link>
+                    <Link className="join-button d-flex align-items-center" to="/contact">join us</Link>
                 </div>
             </Navbar.Collapse>
         </Navbar>
