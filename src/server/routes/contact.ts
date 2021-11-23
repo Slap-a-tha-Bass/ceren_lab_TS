@@ -1,10 +1,11 @@
 import * as express from 'express';
-import * as mailgun from 'mailgun.js';
+import mailgun = require('mailgun.js');
 import * as formdata from 'form-data';
 import { mailgunConfig } from '../config';
+import Mailgun from 'mailgun.js';
 
 
-const mg = new (<typeof mailgun>(<any>mailgun))(<any>formdata).client({
+const mg = new (<typeof Mailgun>(<any>mailgun))(<any>formdata).client({
     username: 'api',
     key: mailgunConfig.secret
 });
