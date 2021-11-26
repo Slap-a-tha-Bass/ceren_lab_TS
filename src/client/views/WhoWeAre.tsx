@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import { ScrollUpButton, TeamButton } from "../../styled-components";
 
 const WhoWeAre = () => {
   return (
     <Container>
+      <h1 className="display-2 text-center mt-4">Who we are</h1>
       <Row className="my-5 d-flex align-items-center justify-content-center">
-        <h1 className="display-1">Who we are</h1>
         <Col md={6}>
           <Card className="bg-dark border-dark text-light rounded shadow m-2 p-2 transition">
             <Card.Title className="text-center mt-2" style={{ fontSize: 40 }}>
@@ -22,10 +23,8 @@ const WhoWeAre = () => {
                 </span>
               </Card.Text>
             </Card.Body>
-            <div className="m-5">
-              <a href="/people" className="join-button m-5">
-                our team
-              </a>
+            <div className="m-3 d-flex justify-content-center">
+              <TeamButton to="/people">Our Team</TeamButton>
             </div>
           </Card>
         </Col>
@@ -40,6 +39,7 @@ const WhoWeAre = () => {
           </Card>
         </Col>
       </Row>
+      <ScrollUpButton />
     </Container>
   );
 };

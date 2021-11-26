@@ -2,11 +2,12 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import RootLayout from "../../components/RootLayout";
 import CardLayout from "../../components/CardLayout";
+import { ScrollUpButton } from "../../styled-components";
 
 const Research = () => {
   return (
     <RootLayout>
-      <h1 className="text-center text-light display-4 mt-4">Our Research</h1>
+      <h1 className="text-center text-light display-2 mt-4">Resources</h1>
       <Row xs={1} md={2} className="g-4 transition my-4">
         <Col>
           <CardLayout
@@ -37,6 +38,7 @@ const Research = () => {
           />
         </Col>
       </Row>
+      <ScrollUpButton />
     </RootLayout>
   );
 };

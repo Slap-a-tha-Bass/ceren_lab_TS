@@ -3,6 +3,8 @@ import { Card } from "react-bootstrap";
 
 const CardLayout = ({
   title,
+  position,
+  biography,
   content,
   link,
   authors,
@@ -23,9 +25,15 @@ const CardLayout = ({
       <Card.Title className="mt-3" style={{ fontSize: 26 }}>
         {title}
       </Card.Title>
+      <Card.Title className="mt-3" style={{ fontSize: 20 }}>
+        {position}
+      </Card.Title>
       <Card.Body>
         <Card.Text style={{ fontSize: 16 }}>
           <span>{authors}</span>
+        </Card.Text>
+        <Card.Text className="text-start" style={{ fontSize: 16 }}>
+          {biography}
         </Card.Text>
         <Card.Text className="text-start">{content}</Card.Text>
         <Card.Text className="text-start">{objective}</Card.Text>
@@ -58,6 +66,8 @@ const CardLayout = ({
 
 interface ICardLayoutProps {
   title: string;
+  position?: string;
+  biography?: string;
   content?: string;
   objective?: string;
   design?: string;
@@ -67,7 +77,7 @@ interface ICardLayoutProps {
   measures?: string;
   results?: string;
   conclusions?: string;
-  link: string;
+  link?: string;
   authors?: string;
   _published?: string;
   publisher?: string;

@@ -8,6 +8,7 @@ import Research from "./Research";
 import People from "./People";
 import News from "./News";
 import Resources from "./Resources";
+import { ScrollUpButton } from "../../styled-components";
 
 const Home = () => {
   return (
@@ -54,7 +55,6 @@ const Home = () => {
       <News />
       {/* RESOURCES SECTIONS - See Resources.tsx */}
       <Resources />
-      
     </>
   );
 };
