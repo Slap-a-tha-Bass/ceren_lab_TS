@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
-import CardLayout from "../../components/CardLayout";
+import { Col, Card } from "react-bootstrap";
+
 import RootLayout from "../../components/RootLayout";
 
 import WhoWeAre from "./WhoWeAre";
@@ -8,7 +8,7 @@ import Research from "./Research";
 import People from "./People";
 import News from "./News";
 import Resources from "./Resources";
-import { ScrollUpButton } from "../../styled-components";
+
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
               A rebel's approach to changing{" "}
               <span className="d-inline" style={{ color: "rgb(31, 255, 160)" }}>
                 SCI
-              </span>{" "}
+              </span>
               care
             </Card.Title>
             <Card.Body>
