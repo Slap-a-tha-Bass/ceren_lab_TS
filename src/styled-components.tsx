@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const NavButton = styled(Link)`
-  background: #343a40;
+export const NavButton = styled.div`
+  background: #000000;
   border: none;
   border-radius: 2rem;
   padding: 0.2rem;
@@ -17,7 +17,7 @@ export const NavButton = styled(Link)`
   }
 `;
 export const LogoButton = styled.button`
-  background: #343a40;
+  background: #000000;
   border: none;
   border-radius: 0.5rem;
   padding: 1rem;
@@ -81,13 +81,27 @@ export const TeamButton = styled(Link)`
   }
 `;
 export const ScrollUpButton = styled.div`
-   position: fixed; 
-   width: 100%;
-   left: 47.5%;
-   bottom: 3vw;
-   height: 3vw;
-   font-size: 6vw;
-   z-index: 1;
-   cursor: pointer;
-   color: rgb(31, 255, 160);
-`
+  position: fixed;
+  width: 100%;
+  left: 47.5%;
+  bottom: 3vw;
+  height: 3vw;
+  font-size: 6vw;
+  z-index: 1;
+  cursor: pointer;
+  color: rgb(31, 255, 160);
+`;
+export const ToggleDiv = styled.div`
+  padding-right: 2vw;
+`;
+export const ToggleButton = styled.div`
+  border: 1px solid black;
+  outline: black;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  padding: none;
+  margin: none;
+  color: rgb(31, 255, 160);
+  background-color: black;
+`;

@@ -6,7 +6,7 @@ $info: #13101c;
 $warning: #945707;
 $danger: #d62518;
 $light: #f8f9fa;
-$dark: #343a40;
+$dark: #000000;
 
 // Then add them to your custom theme-colors map, together with any additional colors you might need
 $theme-colors: (
@@ -33,23 +33,6 @@ $theme-colors: (
     background-repeat: none;
     border-radius: 1rem;
     height: 24rem;
-}
-.toggle-button {
-    border: 1px solid black;
-    outline: black;
-    width: 3rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    padding: none;
-    margin: none;
-    color: rgb(31, 255, 160);
-    background-color: black;
-}
-.margin-neg {
-    margin-right: -1rem;
-    margin-left: -1rem;
-    margin-top: -0.5rem;
-    margin-bottom: -0.5rem;
 }
 .header-text {
     color: whitesmoke;
