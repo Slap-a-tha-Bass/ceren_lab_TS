@@ -83,10 +83,10 @@ export const TeamButton = styled(Link)`
 export const ScrollUpButton = styled.div`
   position: fixed;
   width: 100%;
-  left: 47.5%;
-  bottom: 3vw;
-  height: 3vw;
-  font-size: 6vw;
+  left: 90%;
+  bottom: 2rem;
+  height: 1rem;
+  font-size: calc(2rem + 1.5vw);
   z-index: 1;
   cursor: pointer;
   color: rgb(31, 255, 160);

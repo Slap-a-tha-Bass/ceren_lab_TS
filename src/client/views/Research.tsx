@@ -19,16 +19,15 @@ const Research = () => {
             interventions="Interventions: Not applicable."
             measures="Main Outcome Measures: A stool sample was collected and used to assess the gut microbiome composition (alpha and beta diversity, microbial abundance) via the 16s ribosomal RNA sequencing technique. A fasting serum sample was used for liquid chromatography−mass spectrometry −based untargeted metabolomics analysis, the results from which reflect the relative quantity of metabolites detected and identified. Gut micro- biome and metabolomics data were analyzed by the Quantitative Insights into Microbial Ecology 2 and Metaboanalyst platforms, respectively. Results: Gut microbiome alpha diversity (Pielou’s evenness index, Shannon’s index) and beta diversity (weighted UniFrac distances) differed between groups. Compared with participants with NGT, participants with preDM/T2D had less evenness in microbial communities. In particular, those with preDM/T2D had a lower abundance of the Clostridiales order and higher abundance of the Akkermansia genus, as well as higher serum levels of gut-derived metabolites, including indoxyl sulfate and phenylacetylglutamine (P < .05 for all)."
             conclusions="Conclusions: Our results provide evidence for altered gut microbiome composition and dysregulation of gut-derived metabolites in participants with SCI and preDM/T2D. Both indoxyl sulfate and phenylacetylglutamine have been implicated in the development of cardiovascular diseases in the able-bodied population. These findings may inform future investigations in the field of SCI and cardiometabolic health."
-            link="www.google.com"
+            link="https://pubmed.ncbi.nlm.nih.gov/34126067/"
             authors="Jia Li, PhD, Casey Morrow, PhD, Stephen Barnes, PhD, Landon Wilson, BSc, Erika D. Womack, PhD, Amie McLain, MD, Ceren Yarar-Fisher, PT, PhD"
-            _published="2021"
+            _published="2021 June 12"
             publisher="Archives of Physical Medicine and Rehabilitation"
-            _pmid="000:1-9"
           />
         </Col>
         <Col>
           <CardLayout
-            title="Gut Microbiome Composition and Serum Metabolome Profile Among Individuals With Spinal Cord Injury and Normal Glucose Tolerance or Prediabetes/Type 2 Diabetes"
+            title="Comparison of the gut microbiome composition among individuals with acute or long-standing spinal cord injury vs. able-bodied controls"
             objective="Objective: Compare the gut microbiome composition among individuals with acute spinal cord injury (A-SCI), long-standing SCI (L-SCI), vs. able-bodied (AB) controls."
             design="Design: Cross-sectional design."
             setting="Setting: The University of Alabama at Birmingham."
@@ -36,11 +35,10 @@ const Research = () => {
             interventions="Interventions: Not applicable."
             measures="Methods: Stool samples were collected after a median of 7 days and 18 years after injury in the A-SCI and L-SCI groups, respectively. Gut microbiome composition was analyzed using the 16S rRNA sequencing technique and QIIME software. The abundances of bacteria communities among groups were compared using the Kruskal–Wallis test adjusted for age."
             conclusions="Conclusion: Our results revealed differences in the gut microbiome composition among groups. Compared to the AB controls, the SCI groups demonstrated microbiome profiles that shared features linked to metabolic syndrome, inflammation-related bowel disorders, depressive disorders, or antibiotics use, whereas the L-SCI group’s microbiome included features linked to reduced physical activity compared to the A-SCI and AB controls. Our results provided preliminary data and a scientific foundation for future studies investigating the impact of the gut microbiome composition on long-term health in individuals with SCI."
-            link="www.google.com"
+            link="https://pubmed.ncbi.nlm.nih.gov/32496944/"
             authors="Jia Li, William Van Der Pol, Mualla Eraslan, Amie McLain, Hatice Cetin, Baris Cetin, Casey Morrow, Tiffany Carson, Ceren Yarar-Fisher"
-            _published="2020"
+            _published="2020 June 4"
             publisher="The Journal of Spinal Cord Medicine"
-            _pmid="000:1-9"
           />
         </Col>
         <Col>
@@ -52,7 +50,7 @@ const Research = () => {
             measures = "Methods: The KD is a high-fat, low-carbohydrate diet that includes ≈70–80% total energy as fat. Seven participants with acute complete and incomplete SCI (AIS A–D) were randomly assigned to KD (n=4) or standard diet (SD, n=3). Neurological examinations, resting energy expenditure analysis, and collection of blood for evaluation of circulating ketone levels were performed within 72 h of injury and before discharge. Untargeted metabolomics analysis was performed on serum samples to identify potential serum biomarkers that may explain differential responses between groups."
             results = "Results: Our pilot findings primarily demonstrated that KD is safe and feasible to be administered in acute SCI. Furthermore, upper extremity motor scores were higher (p < 0.05) in the KD vs. SD group and an anti-inflammatory lysophospholipid, lysoPC 16:0, was present at higher levels, and an inflammatory blood protein, fibrinogen, was present at lower levels in the KD serum samples vs. SD serum samples."
             conclusions = "Conclusion: Taken together, these preliminary results suggest that a KD may have anti-inflammatory effects that may promote neuroprotection, resulting in improved neurological recovery in SCI. Future studies with larger sample size are warranted for demonstrating efficacy of KD for improving neurological recovery."
-            link="www.google.com"
+            link="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6155083/"
             authors="Ceren Yarar-Fisher, Adarsh Kulkarni, Jia Li, Paige Farley, Cassandra Renfro, Hammad Aslam1, Patrick Bosarge4, Landon Wilson, Stephen Barnes"
             _published="28 August 2018"
             publisher="International Spinal Cord Society"
@@ -72,7 +70,7 @@ const Research = () => {
             Although both groups exhibited a quantitative increase in insulin sensitivity as measured by the Matsuda Index, the change was clinically meaningful only in the HP diet group (HP diet: pre, 4.6; post, 11.6 vs. Comb-Ex: pre, 3.3; post, 4.6). 
             No changes were observed in proteins associated with GLUT-4 transloca- tion in VL or deltoid muscles.`} 
             conclusions = "Our results suggest that the HP-diet and Comb-Ex regimen may improve insulin sensitivity and decrease TNF-a con- centrations in individuals with SCI."
-            link="www.google.com"
+            link="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6113133/"
             authors="Jia Li, Keith F. L. Polston, Mualla Eraslan1, C. Scott Bickel, Samuel T. Windham, Amie B. McLain, Robert A. Oster, Marcas M. Bamman & Ceren Yarar-Fisher"
             _published="2 July 2018"
             publisher="Physiological Reports"
@@ -88,10 +86,10 @@ const Research = () => {
             measures = "Resting vastus lateralis (VL) muscle biopsy samples were taken from 11 men with long-standing SCI (~22 yr) and compared with VL samples from 11 able-bodied men of similar age." 
             results = "Our results demonstrated that chronic SCI muscle has heightened TNF&alpha;R and TWEAK R gene expression and NF-&kappa;B signaling (higher TWEAK R and phospho-NF-&kappa;B p65) and fibrosis, along with substantial myofiber size heterogeneity, compared with able-bodied individuals."
             conclusions = "Our data suggest that the TWEAK/TWEAK R/NF-&kappa;B signaling pathway may be an important mediator of chronic inflammation and fibrotic adaptation in SCI muscle."
-            link="www.google.com"
+            link="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888537/"
             authors="Ceren Yarar-Fisher, C. Scott Bickel, Neil A. Kelly, Michael J. Stec, Samuel T. Windham, Amie B. McLain, Robert A. Oster, and Marcas M. Bamman"
-            _published="2018"
-            publisher=""
+            _published="2016 May 1"
+            publisher="American Journal of Physiology"
           />
         </Col>
       </Row>
