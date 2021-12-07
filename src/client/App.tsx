@@ -8,13 +8,13 @@ import News from "./views/News";
 import Resources from "./views/Resources";
 import Contact from "./views/Contact";
 import NavBar from "../components/NavBar";
-import ScrollToTop from "../components/ScrollToTop";
+// import ScrollToTop from "../components/ScrollToTop";
 
 /* HOOK REACT EXAMPLE */
 const App = () => {
   return (
     <BrowserRouter>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
